@@ -15,6 +15,13 @@
 > upstream; this fork adds a second hardware target — the **iFlytek C1 color
 > e-ink** (Android APK, see [`c1/`](./c1/)). To pull in upstream changes:
 > `git fetch upstream && git merge upstream/main`.
+>
+> 🗄️ **C1 maintenance has moved to the main workspace** (`x/c1`, internal Gitea at
+> `192.168.1.18:13300`), the single source of truth for the four C1 apps
+> (desktop / reader / browser / standby assistant). The `c1/` directory here is kept
+> as a **standalone buildable copy** (it bundles its own core and keystore, so a
+> clone builds on its own). Future changes land in the main workspace first and are
+> not back-ported here.
 
 A Skill that turns an [M5Paper V1.1](https://docs.m5stack.com/en/core/m5paper)
 e-ink panel into a desk companion driven by an AI agent (Claude Code,

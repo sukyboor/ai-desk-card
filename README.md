@@ -13,6 +13,11 @@
 > 版权归原作者所有。** 主线功能与上游保持一致；本 fork 新增了第二种硬件形态
 > ——**讯飞 C1 彩色墨水屏**（Android APK，见 [`c1/`](./c1/)）。
 > 上游更新可用 `git fetch upstream && git merge upstream/main` 同步。
+>
+> 🗄️ **C1 部分的维护已迁到主工作空间**（`x/c1`，内网 Gitea `192.168.1.18:13300`），
+> 那里是桌面 / 阅读器 / 浏览器 / 待机助理四个应用的**唯一真相源**。
+> 本仓 `c1/` 保留为**可独立构建的副本**（自带 core 与 keystore，clone 即可构建），
+> 后续改动以主仓为准，不再在本仓同步更新。
 
 一个适配 Claude Code / Codex 等 Agent 的桌面副屏 Skill。把 [M5Paper V1.1](https://docs.m5stack.com/en/core/m5paper) 4.7 寸墨水屏立在显示器旁边，由 AI Agent 推送 widget：天气、日程、todo、PR 队列、AI 状态、休息提醒……
 
