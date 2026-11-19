@@ -9,6 +9,11 @@
 
 > 🌏 **English version: [README.en.md](./README.en.md)**
 
+> 📌 **本仓库是 [op7418/ai-desk-card](https://github.com/op7418/ai-desk-card) 的扩展 fork，
+> 版权归原作者所有。** 主线功能与上游保持一致；本 fork 新增了第二种硬件形态
+> ——**讯飞 C1 彩色墨水屏**（Android APK，见 [`c1/`](./c1/)）。
+> 上游更新可用 `git fetch upstream && git merge upstream/main` 同步。
+
 一个适配 Claude Code / Codex 等 Agent 的桌面副屏 Skill。把 [M5Paper V1.1](https://docs.m5stack.com/en/core/m5paper) 4.7 寸墨水屏立在显示器旁边，由 AI Agent 推送 widget：天气、日程、todo、PR 队列、AI 状态、休息提醒……
 
 **装上 Skill 后，烧固件 / 配 Wi-Fi / 推内容 / 设置定时全部由 Agent 引导**，你不用自己跑一行 `pio` 或 `curl`。

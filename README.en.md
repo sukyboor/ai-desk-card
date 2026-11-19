@@ -9,6 +9,13 @@
 
 > 🇨🇳 **中文版（主文档）: [README.md](./README.md)**
 
+> 📌 **This repo is an extension fork of
+> [op7418/ai-desk-card](https://github.com/op7418/ai-desk-card); the original
+> work is copyrighted by its author.** The main track stays in sync with
+> upstream; this fork adds a second hardware target — the **iFlytek C1 color
+> e-ink** (Android APK, see [`c1/`](./c1/)). To pull in upstream changes:
+> `git fetch upstream && git merge upstream/main`.
+
 A Skill that turns an [M5Paper V1.1](https://docs.m5stack.com/en/core/m5paper)
 e-ink panel into a desk companion driven by an AI agent (Claude Code,
 Codex, Cursor, etc.). The agent decides what to push: weather, calendar,
